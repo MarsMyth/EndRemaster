@@ -2,6 +2,7 @@ package net.mars_myth.end_remastered;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mars_myth.end_remastered.block.ModBlocks;
 import net.mars_myth.end_remastered.item.ModItemGroups;
 import net.mars_myth.end_remastered.item.ModItems;
 import org.slf4j.Logger;
@@ -19,5 +20,6 @@ public class TheEndRemastered implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }

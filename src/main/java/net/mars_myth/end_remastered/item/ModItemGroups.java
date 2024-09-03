@@ -3,6 +3,7 @@ package net.mars_myth.end_remastered.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.mars_myth.end_remastered.TheEndRemastered;
 
+import net.mars_myth.end_remastered.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -18,6 +19,15 @@ public class ModItemGroups {
 
                         entries.add(ModItems.ENDERITE_INGOT);
                          entries.add(ModItems.RAW_ENDERITE);
+
+                    }).build());
+
+    public static final ItemGroup END_BLOCKS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TheEndRemastered.MOD_ID, "end_blocks"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.end_blocks"))
+                    .icon(() -> new ItemStack(ModBlocks.ENDERITE_BLOCK)).entries((displayContext, entries) -> {
+
+                        entries.add(ModBlocks.ENDERITE_BLOCK);
 
                     }).build());
 
