@@ -28,6 +28,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.ENDERITE_BLOCK)).entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.ENDERITE_BLOCK);
+                        entries.add(ModBlocks.ENDERITE_ORE);
 
                     }).build());
 

@@ -14,8 +14,10 @@ public class ModBlocks {
 
 
     public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.METAL).requiresTool()));
 
+    public static final Block ENDERITE_ORE = registerBlock("enderite_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.STONE).requiresTool()));
 
 
     private static Block registerBlock(String name, Block block) {
