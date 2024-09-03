@@ -16,6 +16,13 @@ public class ModBlocks {
     public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
             new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.METAL).requiresTool()));
 
+    public static final Block END_MULCH = registerBlock("end_mulch",
+            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.GRASS)));
+
+    public static final Block END_MULCH_BRICKS = registerBlock("end_mulch_bricks",
+            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.MUD_BRICKS).requiresTool()));
+
+
     public static final Block ENDERITE_ORE = registerBlock("enderite_ore",
             new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.STONE).requiresTool()));
 

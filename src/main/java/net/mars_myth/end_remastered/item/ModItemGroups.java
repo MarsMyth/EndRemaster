@@ -29,6 +29,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.ENDERITE_BLOCK);
                         entries.add(ModBlocks.ENDERITE_ORE);
+                        entries.add(ModBlocks.END_MULCH);
+                        entries.add(ModBlocks.END_MULCH_BRICKS);
 
                     }).build());
 

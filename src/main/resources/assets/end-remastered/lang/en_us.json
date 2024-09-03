@@ -8,6 +8,9 @@
   "block.end-remastered.enderite_block": "Enderite Block",
   "block.end-remastered.enderite_ore": "Enderite Ore",
 
+  "block.end-remastered.end_mulch": "End Mulch",
+  "block.end-remastered.end_mulch_bricks": "End Mulch Bricks",
+
   "item.end-remastered.enderite_ingot": "Enderite Ingot",
   "item.end-remastered.raw_enderite": "Raw Enderite"
 }
