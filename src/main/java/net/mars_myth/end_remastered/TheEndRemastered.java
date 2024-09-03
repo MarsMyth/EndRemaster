@@ -2,6 +2,7 @@ package net.mars_myth.end_remastered;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mars_myth.end_remastered.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,5 +14,8 @@ public class TheEndRemastered implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
+
+
+		ModItems.registerModItems();
 	}
 }
