@@ -16,6 +16,9 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.end_items"))
                     .icon(() -> new ItemStack(Blocks.END_STONE)).entries((displayContext, entries) -> {
 
+                        entries.add(ModItems.ENDERITE_INGOT);
+                         entries.add(ModItems.RAW_ENDERITE);
+
                     }).build());
 
 
