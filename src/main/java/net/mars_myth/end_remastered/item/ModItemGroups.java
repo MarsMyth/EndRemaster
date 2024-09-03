@@ -25,12 +25,13 @@ public class ModItemGroups {
     public static final ItemGroup END_BLOCKS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TheEndRemastered.MOD_ID, "end_blocks"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.end_blocks"))
-                    .icon(() -> new ItemStack(ModBlocks.ENDERITE_BLOCK)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.ENDERITE_ORE)).entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.ENDERITE_BLOCK);
                         entries.add(ModBlocks.ENDERITE_ORE);
                         entries.add(ModBlocks.END_MULCH);
                         entries.add(ModBlocks.END_MULCH_BRICKS);
+                        entries.add(ModBlocks.ENDER_LAMP);
 
                     }).build());
 

@@ -1,6 +1,7 @@
 package net.mars_myth.end_remastered.block;
 
 import net.mars_myth.end_remastered.TheEndRemastered;
+import net.mars_myth.end_remastered.block.custom.EnderLampBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -22,9 +23,13 @@ public class ModBlocks {
     public static final Block END_MULCH_BRICKS = registerBlock("end_mulch_bricks",
             new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.MUD_BRICKS).requiresTool()));
 
-
     public static final Block ENDERITE_ORE = registerBlock("enderite_ore",
             new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.STONE).requiresTool()));
+
+    public static final Block ENDER_LAMP = registerBlock("ender_lamp",
+            new EnderLampBlock(AbstractBlock.Settings.create()
+                    .strength(4f).sounds(BlockSoundGroup.GLASS).requiresTool()
+                    .luminance(state -> state.get(EnderLampBlock.CLICKED) ? 15 : 0)));
 
 
     private static Block registerBlock(String name, Block block) {

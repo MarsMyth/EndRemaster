@@ -14,5 +14,6 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
 
+
     }
 }
