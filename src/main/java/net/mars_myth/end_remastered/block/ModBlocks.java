@@ -2,8 +2,10 @@ package net.mars_myth.end_remastered.block;
 
 import net.mars_myth.end_remastered.TheEndRemastered;
 import net.mars_myth.end_remastered.block.custom.EnderLampBlock;
+import net.mars_myth.end_remastered.block.custom.ShadowBerryCropBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -30,6 +32,14 @@ public class ModBlocks {
             new EnderLampBlock(AbstractBlock.Settings.create()
                     .strength(4f).sounds(BlockSoundGroup.GLASS).requiresTool()
                     .luminance(state -> state.get(EnderLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final Block SHADOW_BERRY_CROP = registerBlockWithoutBlockItem("shadow_berry_crop",
+            new ShadowBerryCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, Identifier.of(TheEndRemastered.MOD_ID, name), block);
+    }
 
 
     private static Block registerBlock(String name, Block block) {

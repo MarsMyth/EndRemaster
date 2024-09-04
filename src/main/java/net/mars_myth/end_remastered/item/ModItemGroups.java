@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.END_METAL_INGOT);
                          entries.add(ModItems.RAW_END_METAL);
                          entries.add(ModItems.SHADOW_BERRY);
+                         entries.add(ModItems.SHADOW_BERRY_SEEDS);
                         entries.add(ModItems.COOKED_SHADOW_BERRY);
                         entries.add(ModItems.SHADOW_BERRY_JELLY);
 

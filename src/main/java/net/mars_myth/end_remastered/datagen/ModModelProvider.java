@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.mars_myth.end_remastered.block.ModBlocks;
 import net.mars_myth.end_remastered.block.custom.EnderLampBlock;
+import net.mars_myth.end_remastered.block.custom.ShadowBerryCropBlock;
 import net.mars_myth.end_remastered.item.ModItems;
 import net.minecraft.data.client.*;
 import net.minecraft.util.Identifier;
@@ -25,6 +26,8 @@ public class ModModelProvider extends FabricModelProvider {
         Identifier lampOnIdentifier =  blockStateModelGenerator.createSubModel(ModBlocks.ENDER_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.ENDER_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(EnderLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
+
+    blockStateModelGenerator.registerCrop(ModBlocks.SHADOW_BERRY_CROP, ShadowBerryCropBlock.AGE, 0,1,2,3,4,5);
     }
 
     @Override

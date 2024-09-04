@@ -1,6 +1,8 @@
 package net.mars_myth.end_remastered.item;
 
 import net.mars_myth.end_remastered.TheEndRemastered;
+import net.mars_myth.end_remastered.block.ModBlocks;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -18,6 +20,8 @@ public class ModItems {
             new Item(new Item.Settings().food(ModFoodComponents.COOKED_SHADOW_BERRY)));
     public static final Item SHADOW_BERRY_JELLY = registerItem("shadow_berry_jelly",
             new Item(new Item.Settings().food(ModFoodComponents.SHADOW_BERRY_JELLY)));
+    public static final Item SHADOW_BERRY_SEEDS = registerItem("shadow_berry_seeds",
+            new AliasedBlockItem(ModBlocks.SHADOW_BERRY_CROP, new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
