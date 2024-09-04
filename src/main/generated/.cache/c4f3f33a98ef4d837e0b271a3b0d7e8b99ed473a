@@ -1,1 +1,4 @@
-// 1.21	2024-09-04T17:49:45.2196157	The End: Remastered/Tags for minecraft:block
+// 1.21	2024-09-04T18:59:30.4763688	The End: Remastered/Tags for minecraft:block
+f6a899851270daf4b256a452c3b542738bae26de data\minecraft\tags\block\mineable\pickaxe.json
+6e57ecedf7578d2f711bcae6cdb40871acafbdff data\minecraft\tags\block\needs_diamond_tool.json
+4fd5445ba39831d68a992756544a2fb9d993d5c3 data\minecraft\tags\block\mineable\shovel.json
