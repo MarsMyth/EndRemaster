@@ -9,8 +9,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
 
-    public static final Item ENDERITE_INGOT = registerItem("enderite_ingot", new Item(new Item.Settings()));
-    public static final Item RAW_ENDERITE = registerItem("raw_enderite", new Item(new Item.Settings()));
+    public static final Item END_METAL_INGOT = registerItem("end_metal_ingot", new Item(new Item.Settings()));
+    public static final Item RAW_END_METAL = registerItem("raw_end_metal", new Item(new Item.Settings()));
 
     public static final Item SHADOW_BERRY = registerItem("shadow_berry",
             new Item(new Item.Settings().food(ModFoodComponents.SHADOW_BERRY)));

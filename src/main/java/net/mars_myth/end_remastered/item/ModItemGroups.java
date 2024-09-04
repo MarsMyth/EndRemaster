@@ -15,10 +15,10 @@ public class ModItemGroups {
     public static final ItemGroup END_ITEMS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TheEndRemastered.MOD_ID, "end_items"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.end_items"))
-                    .icon(() -> new ItemStack(ModItems.ENDERITE_INGOT)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.END_METAL_INGOT)).entries((displayContext, entries) -> {
 
-                        entries.add(ModItems.ENDERITE_INGOT);
-                         entries.add(ModItems.RAW_ENDERITE);
+                        entries.add(ModItems.END_METAL_INGOT);
+                         entries.add(ModItems.RAW_END_METAL);
                          entries.add(ModItems.SHADOW_BERRY);
                         entries.add(ModItems.COOKED_SHADOW_BERRY);
                         entries.add(ModItems.SHADOW_BERRY_JELLY);

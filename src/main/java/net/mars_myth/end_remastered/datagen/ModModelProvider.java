@@ -6,7 +6,6 @@ import net.mars_myth.end_remastered.block.ModBlocks;
 import net.mars_myth.end_remastered.block.custom.EnderLampBlock;
 import net.mars_myth.end_remastered.item.ModItems;
 import net.minecraft.data.client.*;
-import net.minecraft.entity.ai.brain.MemoryQuery;
 import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -30,8 +29,8 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.ENDERITE_INGOT, Models.GENERATED);
-          itemModelGenerator.register(ModItems.RAW_ENDERITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.END_METAL_INGOT, Models.GENERATED);
+          itemModelGenerator.register(ModItems.RAW_END_METAL, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.COOKED_SHADOW_BERRY, Models.GENERATED);
         itemModelGenerator.register(ModItems.SHADOW_BERRY, Models.GENERATED);

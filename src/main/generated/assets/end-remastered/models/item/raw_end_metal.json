@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "end-remastered:item/enderite_ingot"
+    "layer0": "end-remastered:item/raw_end_metal"
   }
 }
