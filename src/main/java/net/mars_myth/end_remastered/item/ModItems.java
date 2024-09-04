@@ -12,6 +12,12 @@ public class ModItems {
     public static final Item ENDERITE_INGOT = registerItem("enderite_ingot", new Item(new Item.Settings()));
     public static final Item RAW_ENDERITE = registerItem("raw_enderite", new Item(new Item.Settings()));
 
+    public static final Item SHADOW_BERRY = registerItem("shadow_berry",
+            new Item(new Item.Settings().food(ModFoodComponents.SHADOW_BERRY)));
+    public static final Item COOKED_SHADOW_BERRY = registerItem("cooked_shadow_berry",
+            new Item(new Item.Settings().food(ModFoodComponents.COOKED_SHADOW_BERRY)));
+    public static final Item SHADOW_BERRY_JELLY = registerItem("shadow_berry_jelly",
+            new Item(new Item.Settings().food(ModFoodComponents.SHADOW_BERRY_JELLY)));
 
 
     private static Item registerItem(String name, Item item) {

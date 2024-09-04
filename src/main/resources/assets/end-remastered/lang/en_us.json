@@ -1,6 +1,8 @@
 {
 
-
+  "item.end-remastered.shadow_berry": "Shadow Berry",
+  "item.end-remastered.shadow_berry_jelly": "Shadow Berry Jelly",
+  "item.end-remastered.cooked_shadow_berry": "Cooked Shadow Berry",
 
   "itemgroup.end_items": "The End: Remastered - Items",
   "itemgroup.end_blocks": "The End: Remastered - Blocks",

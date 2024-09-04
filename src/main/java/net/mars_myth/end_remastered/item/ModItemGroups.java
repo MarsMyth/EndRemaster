@@ -19,6 +19,9 @@ public class ModItemGroups {
 
                         entries.add(ModItems.ENDERITE_INGOT);
                          entries.add(ModItems.RAW_ENDERITE);
+                         entries.add(ModItems.SHADOW_BERRY);
+                        entries.add(ModItems.COOKED_SHADOW_BERRY);
+                        entries.add(ModItems.SHADOW_BERRY_JELLY);
 
                     }).build());
 

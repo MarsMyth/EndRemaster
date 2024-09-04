@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "end-remastered:item/cooked_shadow_berry"
+  }
+}

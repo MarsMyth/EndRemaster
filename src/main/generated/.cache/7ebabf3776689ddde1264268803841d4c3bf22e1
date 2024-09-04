@@ -1,19 +1,22 @@
-// 1.21	2024-09-04T07:42:39.9162398	The End: Remastered/Model Definitions
+// 1.21	2024-09-04T15:59:20.2882852	The End: Remastered/Model Definitions
 b5703dd819df6197fc1d63649e0d1c9d760e7311 assets\end-remastered\models\block\ender_lamp.json
 ad67de76200eeac05b81badd050d02d43a2743f3 assets\end-remastered\models\item\end_mulch_bricks.json
+c85a293c3c4a806345493a59c6b32323449085ec assets\end-remastered\models\item\cooked_shadow_berry.json
 ae6b68bfe8bd1bd8fdee2b801b01898dff5d9009 assets\end-remastered\blockstates\enderite_ore.json
-73822887d891df4a4b45bea4b4df044a8b28fbca assets\end-remastered\models\item\raw_enderite.json
 c74b33476f554f23291705a4db6d81efdf01b9f2 assets\end-remastered\blockstates\ender_lamp.json
+73822887d891df4a4b45bea4b4df044a8b28fbca assets\end-remastered\models\item\raw_enderite.json
+ef1353960897705763174c161e2a77f03cd41469 assets\end-remastered\models\item\shadow_berry.json
 dc85ccf0e95f57e54710ef672f4984bbecd54e6e assets\end-remastered\models\block\enderite_ore.json
 5f0b7afb99659767f71d7ca3202632bdbbac246f assets\end-remastered\blockstates\end_mulch.json
 e2b70411e6e942be2d6a2c7ceba0e5cf731f532e assets\end-remastered\models\block\enderite_block.json
 7021e42990262baa96ff6fcf3918ad6ac974f9f1 assets\end-remastered\models\item\enderite_block.json
 373908ebae667027096e20e5bca730dc499d8fda assets\end-remastered\models\block\end_mulch_bricks.json
 2ae417875db15a6342b8a3eebc3878b5a1677dd6 assets\end-remastered\models\item\end_mulch.json
-e2644aac4b423ffe577cb4a7e5609bf55fd8e8c6 assets\end-remastered\models\item\enderite_ore.json
 6f0ba1399894fcaa1fb7fd9b91b2b144e8980ce6 assets\end-remastered\models\block\ender_lamp_on.json
+e2644aac4b423ffe577cb4a7e5609bf55fd8e8c6 assets\end-remastered\models\item\enderite_ore.json
 79ceeae83f4aebc6924547538e68e4c2dc940711 assets\end-remastered\blockstates\enderite_block.json
 f9b280041b3cf0326b0ec65c45eee0bcd18cfd64 assets\end-remastered\blockstates\end_mulch_bricks.json
+44256f034ab5a77129a9e39ed6b67d054e524457 assets\end-remastered\models\item\shadow_berry_jelly.json
 f975dab8175e77d060eb18ddf8e72402008a6403 assets\end-remastered\models\item\ender_lamp.json
 bf59b403ee8f92c127f0ef2a6fc935ed3a254559 assets\end-remastered\models\item\enderite_ingot.json
 e9c13abd21d6cc91fe2734d9a507387240ffa8de assets\end-remastered\models\block\end_mulch.json

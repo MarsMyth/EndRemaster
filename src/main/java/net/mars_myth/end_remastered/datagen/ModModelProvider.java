@@ -33,5 +33,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ENDERITE_INGOT, Models.GENERATED);
           itemModelGenerator.register(ModItems.RAW_ENDERITE, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.COOKED_SHADOW_BERRY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHADOW_BERRY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHADOW_BERRY_JELLY, Models.GENERATED);
+
+
     }
 }
