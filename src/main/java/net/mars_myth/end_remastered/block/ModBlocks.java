@@ -16,7 +16,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
 
-    public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
+    public static final Block END_METAL_BLOCK = registerBlock("end_metal_block",
             new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.METAL).requiresTool()));
 
     public static final Block END_MULCH = registerBlock("end_mulch",
@@ -25,7 +25,7 @@ public class ModBlocks {
     public static final Block END_MULCH_BRICKS = registerBlock("end_mulch_bricks",
             new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.MUD_BRICKS).requiresTool()));
 
-    public static final Block ENDERITE_ORE = registerBlock("enderite_ore",
+    public static final Block END_METAL_ORE = registerBlock("end_metal_ore",
             new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.STONE).requiresTool()));
 
     public static final Block ENDER_LAMP = registerBlock("ender_lamp",

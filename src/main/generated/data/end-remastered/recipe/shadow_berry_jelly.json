@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "end-remastered:shadow_berry"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "SB",
+    "SS"
+  ],
+  "result": {
+    "count": 4,
+    "id": "end-remastered:shadow_berry_jelly"
+  }
+}

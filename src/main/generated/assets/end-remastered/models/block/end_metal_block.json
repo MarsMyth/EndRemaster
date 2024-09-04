@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "end-remastered:block/enderite_ore"
+    "all": "end-remastered:block/end_metal_block"
   }
 }

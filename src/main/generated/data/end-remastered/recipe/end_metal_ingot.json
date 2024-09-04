@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "end-remastered:end_metal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "end-remastered:end_metal_ingot"
+  }
+}

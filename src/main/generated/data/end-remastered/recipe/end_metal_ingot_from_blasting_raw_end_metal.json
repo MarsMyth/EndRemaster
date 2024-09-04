@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 125,
+  "experience": 0.4,
+  "group": "end_metal",
+  "ingredient": {
+    "item": "end-remastered:raw_end_metal"
+  },
+  "result": {
+    "id": "end-remastered:end_metal_ingot"
+  }
+}

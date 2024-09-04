@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.4,
+  "group": "shadow_berry",
+  "ingredient": {
+    "item": "end-remastered:shadow_berry"
+  },
+  "result": {
+    "id": "end-remastered:cooked_shadow_berry"
+  }
+}

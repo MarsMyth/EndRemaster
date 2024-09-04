@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_end_metal_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "end-remastered:end_metal_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:end_metal_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_end_metal_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:end_metal_block"
+    ]
+  }
+}

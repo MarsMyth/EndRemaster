@@ -10,8 +10,8 @@
   "itemgroup.end_items": "The End: Remastered - Items",
   "itemgroup.end_blocks": "The End: Remastered - Blocks",
 
-  "block.end-remastered.enderite_block": "Enderite Block",
-  "block.end-remastered.enderite_ore": "Enderite Ore",
+  "block.end-remastered.end_metal_block": "End Metal Block",
+  "block.end-remastered.end_metal_ore": "End Metal Ore",
 
   "block.end-remastered.end_mulch": "End Mulch",
   "block.end-remastered.end_mulch_bricks": "End Mulch Bricks",
